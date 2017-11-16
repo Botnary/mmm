@@ -1,0 +1,20 @@
+{
+    "name": "gm/mmm",
+    "description": "mmm",
+    "type": "library",
+    "require": {
+        "swiftmailer/swiftmailer": "^6.0",
+        "php-imap/php-imap": "^3.0"
+    },
+    "authors": [
+        {
+            "name": "Constantin",
+            "email": "my.test@live.ca"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "MMM": "src/"
+        }
+    }
+}
